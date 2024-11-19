@@ -77,7 +77,7 @@ const Header = () => {
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center space-x-4">
               <a
-                href="tel:+380XXXXXXXX"
+                href="tel:+380502500438"
                 className="text-[#00bfff] hover:text-[#0099cc] transition-colors"
               >
                 <Phone className="h-5 w-5" />
@@ -130,7 +130,7 @@ const Header = () => {
             {/* Mobile Contact Buttons */}
             <div className="mt-6 space-y-3">
               <a
-                href="tel:+380XXXXXXXX"
+                href="tel:+380502500438"
                 className="flex items-center justify-center space-x-2 p-3 bg-[#e6f9ff] text-[#00bfff] rounded-lg hover:bg-[#d1f3ff] transition-colors"
               >
                 <Phone className="h-5 w-5" />

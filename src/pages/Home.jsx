@@ -37,7 +37,7 @@ const Home = () => {
       {showCallButton && (
         <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2">
           <Button 
-            onClick={() => window.location.href = 'tel:+380XXXXXXXX'}
+            onClick={() => window.location.href = 'tel:+380502500438'}
             className="bg-brand-primary hover:bg-brand-dark text-white rounded-full w-16 h-16 shadow-lg flex items-center justify-center"
           >
             <Phone className="h-8 w-8" />
