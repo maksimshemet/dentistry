@@ -15,13 +15,13 @@ const Footer = () => {
       'Імплантація'
     ],
     contacts: [
-      { icon: Phone, text: '+380 XX XXX XX XX', href: 'tel:+380XXXXXXXX' },
-      { icon: Mail, text: 'info@люксдент.ua', href: 'mailto:info@люксдент.ua' },
-      { icon: MapPin, text: 'вул. Прикладна, 123, Київ', href: 'https://maps.google.com' },
-      { icon: Clock, text: 'Пн-Сб: 9:00 - 20:00' }
+      { icon: Phone, text: '+380 50 250 04 38', href: 'tel:+380502500438' },
+      { icon: Mail, text: 'semetm25@gmail.com', href: 'mailto:semetm25@gmail.com' },
+      { icon: MapPin, text: 'вул. Пашутінська 36, м. Кропивницький', href: 'https://maps.app.goo.gl/qyaKL46XbuT36KRt5' },
+      { icon: Clock, text: 'Пн-Сб: 8:00 - 19:00' }
     ],
     social: [
-      { icon: Facebook, name: 'Facebook', href: '#' },
+      { icon: Facebook, name: 'Facebook', href: 'https://www.instagram.com/luxdent.kr' },
       { icon: Instagram, name: 'Instagram', href: '#' }
     ]
   };
@@ -37,6 +37,7 @@ const Footer = () => {
             <p className="text-gray-600 mb-4">
               Сучасна стоматологічна клініка, де досвід та інновації створюють здорові усмішки.
             </p>
+            <a href='viber://chat?number=%2B380502500438'>
             <Button 
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
               className="w-full sm:w-auto"
@@ -44,6 +45,7 @@ const Footer = () => {
               <Calendar className="h-5 w-5 mr-2" />
               Записатись
             </Button>
+            </a>
           </div>
 
           {/* Services Section */}
@@ -111,8 +113,8 @@ const Footer = () => {
               })}
             </div>
             <div className="text-sm text-gray-600">
-              <p className="mb-2">Ліцензія МОЗ України</p>
-              <p>Серія АВ №123456</p>
+              <p className="mb-2">Розроблено:</p>
+              <a href='http://takneprojde.smv.pp.ua/'>Балакучими Головами</a>
             </div>
           </div>
         </div>

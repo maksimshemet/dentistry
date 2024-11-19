@@ -39,16 +39,16 @@ const Header = () => {
             <div className="container max-w-[1200px] mx-auto flex justify-between items-center text-sm">
             <div className="flex items-center gap-4">
                 <div className="flex items-center">
-                <Clock className="h-4 w-4 mr-1" />
-                <span>Пн-Сб: 9:00 - 20:00</span>
+                <Clock className="h-4 w-4 mr-3" />
+                <span>Пн-Пт: 8:00 - 19:00<br />Сб: 8:00 - 14:00</span>
                 </div>
                 <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-1" />
-                <span>вул. Прикладна, 123, Київ</span>
+                <span>вул. Пашутінська 36, м. Кропивницький</span>
                 </div>
             </div>
-            <a href="tel:+380XXXXXXXX" className="hover:underline">
-                +380 XX XXX XX XX
+            <a href="tel:+380502500438" className="hover:underline">
+                +380 50 250 0438
             </a>
             </div>
         </div>
@@ -84,7 +84,7 @@ const Header = () => {
               </a>
               <Button
                 onClick={() => handleMenuItemClick('#contact')}
-                size="sm"
+                size="lg"
               >
                 Записатись на прийом
               </Button>

@@ -14,7 +14,7 @@ const Contact = () => {
         </p>
         <div className="space-y-6 mb-6">
           <a 
-            href="tel:+380XXXXXXXX"
+            href="tel:+380502500438"
             className="flex items-center justify-center space-x-2 bg-[#00bfff] hover:bg-[#0099cc] text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl"
           >
             <Phone className="h-5 w-5" />
@@ -22,12 +22,13 @@ const Contact = () => {
           </a>
           <div className="flex items-center justify-center space-x-2 text-sm">
             <Clock className="h-4 w-4 text-[#00bfff]" />
-            <span>Пн-Сб: 9:00 - 20:00</span>
+            <span>Пн-Пт: 8:00 - 19:00<br />Сб: 8:00 - 14:00</span>
           </div>
           <div className="flex items-center justify-center space-x-2 text-sm">
             <MapPin className="h-4 w-4 text-[#00bfff]" />
-            <span>вул. Прикладна, 123, Київ</span>
+            <span>вул. Пашутінська 36, м. Кропивницький</span>
           </div>
+          <a href='viber://chat?number=%2B380502500438'>
           <Button 
             size="lg"
             className="w-full bg-[#00bfff] hover:bg-[#0099cc] text-white py-4 rounded-full text-lg flex items-center justify-center space-x-2 transform transition-all duration-300 hover:scale-105"
@@ -35,10 +36,8 @@ const Contact = () => {
             <Calendar className="h-5 w-5" />
             <span>Записатися онлайн</span>
           </Button>
+          </a>
         </div>
-        <p className="text-xs text-gray-500">
-          * При записі через сайт - консультація безкоштовно
-        </p>
       </div>
     </section>
   );

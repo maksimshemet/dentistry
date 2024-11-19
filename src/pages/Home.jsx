@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
 import Hero from '../components/sections/Hero';
 import TrustIndicators from '../components/sections/TrustIndicators';
 import Benefits from '../components/sections/Benefits';
@@ -14,9 +15,10 @@ const Home = () => {
   const showCallButton = useScrollPosition(100);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#f2f3f4]">
       {/* Centered Content Container */}
-      <div className="max-w-[1200px] mx-auto bg-white">
+      
+      <div className="max-w-[1200px] mx-auto bg-[#f2f3f4]">
         {/* Fixed top info bar - full width */}
         {/* Main content */}
         <div className="px-4">
@@ -27,6 +29,7 @@ const Home = () => {
           <Services />
           <Feedback />
           <Contact />
+          <Footer />
         </div>
       </div>
 
