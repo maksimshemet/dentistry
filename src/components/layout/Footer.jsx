@@ -21,8 +21,8 @@ const Footer = () => {
       { icon: Clock, text: 'Пн-Сб: 8:00 - 19:00' }
     ],
     social: [
-      { icon: Facebook, name: 'Facebook', href: 'https://www.instagram.com/luxdent.kr' },
-      { icon: Instagram, name: 'Instagram', href: '#' }
+      // { icon: Facebook, name: 'Facebook', href: 'https://www.instagram.com/luxdent.kr' },
+      { icon: Instagram, name: 'Instagram', href: 'https://www.instagram.com/luxdent.kr' }
     ]
   };
 
