@@ -155,7 +155,7 @@ const Header = () => {
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-4 w-4 mr-2 text-[#00bfff]" />
-                  <span>вул. Прикладна, 123, Київ</span>
+                  <span>вул. Пашутінська 36, м. Кропивницький</span>
                 </div>
               </div>
             </div>
