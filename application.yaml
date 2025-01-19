@@ -18,6 +18,12 @@ spec:
     syncOptions:
     - CreateNamespace=true
 
+  healthChecks:
+    - name: certificate-health
+      kind: Certificate
+      apiVersion: cert-manager.io/v1
+      health: Healthy
+
     automated:
       selfHeal: true
       prune: true
