@@ -20,12 +20,4 @@ spec:
 
     automated:
       selfHeal: true
-      prune: true
-
-  healthChecks:
-    - name: certificate-health
-      kind: Certificate
-      apiVersion: cert-manager.io/v1
-      health: Healthy
-
-    
+      prune: true  
