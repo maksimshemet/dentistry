@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: luxdent
-          image: shemetmaksim/dentistry:0.0.1
+          image: shemetmaksim/dentistry:1.0.0
           ports:
             - containerPort: 80
