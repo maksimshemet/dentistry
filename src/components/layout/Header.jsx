@@ -112,9 +112,29 @@ const Header = () => {
             isMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
           )}
         >
-          <div className="container mx-auto px-4 py-4">
+          <div className="container mx-auto px-4 py-4" >
+            
             {/* Mobile Navigation */}
             <nav className="flex flex-col space-y-4">
+
+              
+              
+              {/*Close Button */}
+              <div className="flex justify-end items-center">
+                <button
+                  className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+                  onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  aria-label="Меню"
+                >
+                  {isMenuOpen ? (
+                    <X className="h-6 w-6 text-gray-600" />
+                  ) : (
+                    <Menu className="h-6 w-6 text-gray-600" />
+                  )}
+                </button>
+              </div>
+              {/*Close Button End */}
+
               {menuItems.map((item) => (
                 <button
                   key={item.name}

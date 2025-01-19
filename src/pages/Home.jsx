@@ -17,23 +17,23 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-[#f2f3f4]">
       {/* Centered Content Container */}
-      
-      <div className="max-w-[1200px] mx-auto bg-[#f2f3f4]">
-        {/* Fixed top info bar - full width */}
-        {/* Main content */}
-        <div className="px-4">
-          <Header />
-          <Hero />
-          <TrustIndicators />
-          <Benefits />
-          <Services />
-          <Feedback />
-          <Contact />
-          <Footer />
-        </div>
-      </div>
+          
+          <div className="max-w-[1200px] mx-auto bg-[#f2f3f4]">
+          {/* Fixed top info bar - full width */}
+          {/* Main content */}
+          <div className="px-0 md:px-4">
+            <Header />
+            <Hero />
+            <TrustIndicators />
+            <Benefits />
+            <Services />
+            <Feedback />
+            <Contact />
+            <Footer />
+          </div>
+          </div>
 
-      {/* Floating buttons - outside container */}
+          {/* Floating buttons - outside container */}
       {showCallButton && (
         <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2">
           <Button 
