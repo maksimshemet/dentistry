@@ -1,0 +1,25 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: luxdent-smv-pp-ua-cert
+  namespace: argocd
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/maksimshemet/dentistry.git
+    targetRevision: HEAD
+    path: prod-cert
+  destination: 
+    server: https://kubernetes.default.svc
+    namespace: luxdent
+
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+
+    automated:
+      selfHeal: true
+      prune: true
+
+    
