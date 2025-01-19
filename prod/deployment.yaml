@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   name: luxdent
   labels:
-    app: luxdent-app
+    app: luxdent
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: luxdent-app
+      app: luxdent
     spec:
       containers:
         - name: luxdent
