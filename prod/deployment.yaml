@@ -9,6 +9,10 @@ spec:
   selector:
     matchLabels:
       app: luxdent
+  template:
+    metadata:
+      labels:
+        app: luxdent
     spec:
       containers:
         - name: luxdent
